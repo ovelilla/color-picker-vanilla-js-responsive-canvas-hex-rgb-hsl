@@ -199,7 +199,7 @@ class Data {
                     const hsla = colors.rgbaToHsla(this.values.rgba);
 
                     for (const key in hsla) {
-                        this.hsla[key] = hsla[key];
+                        this.hsla[key] = parseInt(hsla[key]);
                     }
 
                     this.onChange(this.hsla);
@@ -234,7 +234,7 @@ class Data {
                     value: this.values.hsla[key],
                 },
                 onInput: async (value) => {
-                    this.hsla[key] = value;
+                    this.hsla[key] = parseInt(value);
                     this.onChange(this.hsla);
                     this.setValues();
                 },
