@@ -33,7 +33,6 @@ class Colorpicker {
 
     checkValue() {
         if (!this.input.value) {
-            this.hsla =  { h: 0, s: 0, l: 0, a: 0 };
             this.input.value = "#000000";
         }
 
