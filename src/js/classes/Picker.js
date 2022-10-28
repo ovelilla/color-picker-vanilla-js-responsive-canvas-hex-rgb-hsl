@@ -162,7 +162,6 @@ class Picker {
     }
 
     handleMove(e) {
-        e.preventDefault();
         if (!this.isMove) {
             return;
         }
