@@ -151,7 +151,7 @@ class Picker {
         this.end = this.handleEnd.bind(this);
 
         document.addEventListener("mousemove", this.move);
-        document.addEventListener("touchmove", this.move, { passive: true });
+        document.addEventListener("touchmove", this.move, { passive: false });
         document.addEventListener("mouseup", this.end);
         document.addEventListener("touchend", this.end, { passive: true });
 
