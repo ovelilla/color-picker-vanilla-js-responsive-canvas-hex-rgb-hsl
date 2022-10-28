@@ -144,6 +144,7 @@ class Picker {
     }
 
     handleStart(e) {
+        e.preventDefault();
         this.isMove = true;
 
         this.move = this.handleMove.bind(this);
@@ -162,6 +163,7 @@ class Picker {
     }
 
     handleMove(e) {
+        e.preventDefault();
         if (!this.isMove) {
             return;
         }
