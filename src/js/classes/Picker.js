@@ -27,8 +27,8 @@ class Picker {
     }
 
     resize() {
-        this.canvas.width = document.querySelector('.picker').offsetWidth;
-        this.canvas.height = document.querySelector('.picker').offsetHeight;
+        this.canvas.width = this.canvas.offsetWidth;
+        this.canvas.height = this.canvas.offsetHeight;
     }
 
     setPos() {
