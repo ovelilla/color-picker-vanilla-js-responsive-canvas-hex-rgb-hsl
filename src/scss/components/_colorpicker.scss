@@ -47,6 +47,7 @@
         background-color: v.$white;
         border-radius: 8px;
         box-shadow: v.$shadow-md;
+        overscroll-behavior-y: contain;
     }
 
     .message {
