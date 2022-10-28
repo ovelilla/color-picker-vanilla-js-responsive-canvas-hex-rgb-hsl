@@ -14,7 +14,7 @@ body {
     background-color: v.$slate-50;
     color: v.$slate-900;
     scrollbar-width: none;
-    padding: 100px;
+    padding: 100px 10px;
 
     &.noscroll {
         overflow: hidden;

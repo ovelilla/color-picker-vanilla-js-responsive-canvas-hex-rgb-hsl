@@ -162,9 +162,11 @@ class Picker {
     }
 
     handleMove(e) {
+        e.preventDefault();
         if (!this.isMove) {
             return;
         }
+        
 
         this.position(e);
         this.rerender();
