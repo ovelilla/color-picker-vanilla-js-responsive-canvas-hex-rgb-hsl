@@ -40,13 +40,15 @@
         flex-direction: column;
         overflow: hidden;
         user-select: none;
-        position: absolute;
         width: 100%;
-        margin: 0 10px;
         max-width: 400px;
         background-color: v.$white;
         border-radius: 8px;
         box-shadow: v.$shadow-md;
+
+        @include m.tablet {
+            position: absolute;
+        }
     }
 
     .message {
