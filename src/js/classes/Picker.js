@@ -144,14 +144,13 @@ class Picker {
     }
 
     handleStart(e) {
-        e.preventDefault();
         this.isMove = true;
 
         this.move = this.handleMove.bind(this);
         this.end = this.handleEnd.bind(this);
 
         document.addEventListener("mousemove", this.move);
-        document.addEventListener("touchmove", this.move, { passive: false });
+        document.addEventListener("touchmove", this.move, { passive: true });
         document.addEventListener("mouseup", this.end);
         document.addEventListener("touchend", this.end, { passive: true });
 
@@ -163,7 +162,6 @@ class Picker {
     }
 
     handleMove(e) {
-        e.preventDefault();
         if (!this.isMove) {
             return;
         }
