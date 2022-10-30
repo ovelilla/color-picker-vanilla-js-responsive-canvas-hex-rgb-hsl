@@ -1,4 +1,4 @@
-import Colorpicker from "./classes/Colorpicker.js";
+import Colorpicker from "./components/colorpicker";
 
 const values = {
     color: "hsl(220deg 75% 50%)",
