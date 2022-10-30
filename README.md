@@ -6,7 +6,7 @@ Demo: https://fluffy-mousse-cb5bb5.netlify.app/
 
 
 ```
-import Colorpicker from "./classes/Colorpicker.js";
+import Colorpicker from "./components/colorpicker";
 
 const values = {
     color: "hsl(220deg 75% 50%)",
