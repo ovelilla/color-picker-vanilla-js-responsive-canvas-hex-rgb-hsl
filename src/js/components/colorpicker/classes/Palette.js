@@ -76,6 +76,9 @@ class Palette {
     }
 
     reset() {
+        if (!this.color) {
+            return;
+        }
         this.color = null;
         this.rerender();
     }
