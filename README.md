@@ -1,5 +1,5 @@
-# colorpicker-responsive-vanillajs-canvas-hex-rgb-hsl
-Responsive vanilla JavaScript colorpicker using canvas, accepts hex, rgb, rgba, hsl, hsla
+# color-picker-vanilla-js-responsive-canvas-hex-rgb-hsl
+Color picker vanilla JavaScript Responsive using canvas, accepts hex, rgb, rgba, hsl, hsla
 
 
 Demo: https://fluffy-mousse-cb5bb5.netlify.app/
